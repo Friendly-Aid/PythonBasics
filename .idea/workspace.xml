@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043cc443-5f15-43d2-b766-979d73038364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/encrypt_decrypt_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_2.py" afterDir="false" />
+    <list default="true" id="043cc443-5f15-43d2-b766-979d73038364" name="Changes" comment="added some missing code in encrypt_decrypt_log.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt_decrypt_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/encrypt_decrypt_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Python.SimpleCalc_ButBetter.executor": "Run",
     "Python.Student_calculator.executor": "Run",
     "Python.circle-operations.executor": "Run",
+    "Python.encrypt_decrypt_log.executor": "Run",
     "Python.test.executor": "Run",
     "Python.test_2.executor": "Run",
     "Python.testo.executor": "Run",
@@ -94,7 +95,7 @@
       <workItem from="1741997293824" duration="1675000" />
       <workItem from="1742052560186" duration="3689000" />
       <workItem from="1742241184123" duration="2586000" />
-      <workItem from="1742310596594" duration="15646000" />
+      <workItem from="1742310596594" duration="17297000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -152,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742243734397</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new programs or updated old ones">
+      <option name="closed" value="true" />
+      <created>1742326462871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742326462871</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added some missing code in encrypt_decrypt_log.py">
+      <option name="closed" value="true" />
+      <created>1742328548948</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742328548948</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,14 +180,17 @@
     <MESSAGE value="added misc.xml" />
     <MESSAGE value="added SimpleCalc.py" />
     <MESSAGE value="Added a better simple calculator program." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a better simple calculator program." />
+    <MESSAGE value="Added new programs or updated old ones" />
+    <MESSAGE value="added some missing code in encrypt_decrypt_log.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some missing code in encrypt_decrypt_log.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$Student_calculator.coverage" NAME="Student_calculator Coverage Results" MODIFIED="1741900111443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1742326239118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$encrypt_decrypt_log.coverage" NAME="encrypt_decrypt_log Coverage Results" MODIFIED="1742330120685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$circle_operations.coverage" NAME="circle-operations Coverage Results" MODIFIED="1742243681179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$SimpleCalc_ButBetter.coverage" NAME="SimpleCalc_ButBetter Coverage Results" MODIFIED="1740624482808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$test_2.coverage" NAME="test_2 Coverage Results" MODIFIED="1742325138502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$test_2.coverage" NAME="test_2 Coverage Results" MODIFIED="1742329737979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1740613587337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$testo.coverage" NAME="testo Coverage Results" MODIFIED="1741997868350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

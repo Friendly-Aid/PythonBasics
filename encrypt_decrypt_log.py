@@ -2,13 +2,14 @@ import os, datetime, csv, time
 from cryptography.fernet import Fernet
 
 def valid_input(valid,prompt):
-    valid=list(map(lambda x: x.lower(),list(valid)))
+    while True:
+        valid=list(map(lambda x: x.lower(),list(valid)))
 
-    test=input(prompt).lower()
-    if test in valid:
-        return test
-    else:
-        print("\nInvalid input {}. Pleas enter one of the following {}.\n".format(test,valid))
+        test=input(prompt).lower()
+        if test in valid:
+            return test
+        else:
+            print("\nInvalid input {}. Please enter one of the following {}.\n".format(test,valid))
 
 while True:
     path=input("what is the directory path? ").strip('" ')
@@ -57,6 +58,13 @@ def encrypt():
             with open(file_path, "rb") as file:
                 new_file_name=file_name + ".encrypted"
                 new_file_path=os.path.join(output_folder,new_file_name)
+
+                prefix = 2
+                while os.path.exists(new_file_path):
+                    new_file_name = f"_{prefix}".join(os.path.splitext(file_name)) + ".encrypted"
+                    new_file_path = os.path.join(output_folder, new_file_name)
+                    prefix += 1
+
                 with open(new_file_path,"wb") as new_file:
                     read=file.read(4096)
                     while read:
@@ -87,6 +95,11 @@ def decrypt():
                     fernet = Fernet(eval(row["key"]))
                     encrypted_file_path=os.path.join(output_folder,row["encrypted_file"])
                     file_path=os.path.join(output_folder,row["file"])
+
+                    prefix = 2
+                    while os.path.exists(file_path):
+                        file_path=os.path.join(output_folder,f"_{prefix}".join(os.path.splitext(row["file"])))
+                        prefix += 1
 
                     with open(encrypted_file_path,"rb") as encrypted_file:
                         with open(file_path,"wb") as file:
