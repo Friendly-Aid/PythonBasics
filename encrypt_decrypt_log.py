@@ -37,6 +37,7 @@ output_folder=os.path.join(dirname,"output")
 if os.path.exists(output_folder):
     if os.path.isfile(output_folder):
         os.rename(output_folder,output_folder+".temp")
+        os.mkdir(output_folder)
 else:
     os.mkdir(output_folder)
 
