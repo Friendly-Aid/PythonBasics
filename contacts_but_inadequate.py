@@ -19,7 +19,7 @@ def valid_input(valid,prompt):
 
 def add_contact(name,number,email):
     if name in contacts:
-        print("\n{} already exists.".format(name))
+        print("\n{} already exists.\n".format(name))
     else:
         contacts.update({name:{"number":number,"email":email}})
         with open("contacts.json","w") as contacts_file:
@@ -31,7 +31,7 @@ def remove_contact(name):
         with open("contacts.json","w") as contacts_file:
             json.dump(contacts,contacts_file)
     else:
-        print("\n{} doesn't exist.".format(name))
+        print("\n{} doesn't exist.\n".format(name))
 
 def update_contact(name,data):
     contacts[name].update(data)
@@ -42,10 +42,11 @@ def get_contact(name):
     if name in contacts:
         print("\ncontacts name is {}\ncontacts number is {}\ncontacts email is {}\n".format(name,contacts[name]["number"],contacts[name]["email"]))
     else:
-        print("\n{} doesn't exist.".format(name))
+        print("\n{} doesn't exist.\n".format(name))
 
 while True:
     result=valid_input("yn","Would you like to enter the contact management system? y/n: ")
+    print()
     if result=="n":
         break
     result = valid_input("1234", "Options:\n1: add contact\n2: remove contact\n3: update contact information\n4: get contact information\nWhat is your choice?: ")
@@ -78,5 +79,6 @@ while True:
         update_contact(name,data)
     else:
         get_contact(name)
+    print()
 
 print("exiting program")

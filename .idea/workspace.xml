@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043cc443-5f15-43d2-b766-979d73038364" name="Changes" comment="added some missing code in encrypt_decrypt_log.py">
-      <change afterPath="$PROJECT_DIR$/contacts_but_inadequate.py" afterDir="false" />
+    <list default="true" id="043cc443-5f15-43d2-b766-979d73038364" name="Changes" comment="made some code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts_but_inadequate.py" beforeDir="false" afterPath="$PROJECT_DIR$/contacts_but_inadequate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,28 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SimpleCalc_ButBetter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Student_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.circle-operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contacts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.encrypt_decrypt_log.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.HelloWorld.executor": "Run",
+    "Python.SimpleCalc_ButBetter.executor": "Run",
+    "Python.Student_calculator.executor": "Run",
+    "Python.circle-operations.executor": "Run",
+    "Python.contacts.executor": "Run",
+    "Python.contacts_but_inadequate.executor": "Run",
+    "Python.encrypt_decrypt_log.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_2.executor": "Run",
+    "Python.testo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -104,6 +103,7 @@
       <workItem from="1742421376639" duration="1687000" />
       <workItem from="1742423330978" duration="8000" />
       <workItem from="1742423411972" duration="7000" />
+      <workItem from="1742423471318" duration="935000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742330323618</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="made some code">
+      <option name="closed" value="true" />
+      <created>1742423764558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742423764558</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +206,12 @@
     <MESSAGE value="Added a better simple calculator program." />
     <MESSAGE value="Added new programs or updated old ones" />
     <MESSAGE value="added some missing code in encrypt_decrypt_log.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some missing code in encrypt_decrypt_log.py" />
+    <MESSAGE value="made some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$Student_calculator.coverage" NAME="Student_calculator Coverage Results" MODIFIED="1741900111443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$contacts_but_inadequate.coverage" NAME="contacts_but_inadequate Coverage Results" MODIFIED="1742424122390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$contacts.coverage" NAME="contacts Coverage Results" MODIFIED="1742422937161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1742326239118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$encrypt_decrypt_log.coverage" NAME="encrypt_decrypt_log Coverage Results" MODIFIED="1742330288951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
