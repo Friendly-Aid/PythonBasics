@@ -1,2 +1,3 @@
-import os
-print(os.path.splitext("test.py.moo"))
+test={5:6}
+if 5 in test:
+    print("a")
