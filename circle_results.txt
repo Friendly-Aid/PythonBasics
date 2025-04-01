@@ -1,2 +1,0 @@
-the area of a circle with radius 5.00 is 78.54
-the circumference of a circle with radius 10.00 is 62.83
